@@ -1,10 +1,16 @@
 #include <iostream>
 
-using namespace std;
+
+void PrintMessage()
+{
+    std::cout << "Ala ma kota a kot ma Alę" << std::endl;
+}
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    std::cout << "Hello World!" << std::endl;
+
+    PrintMessage();
     return 0;
 }
 
